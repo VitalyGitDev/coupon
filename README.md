@@ -1,14 +1,14 @@
 # CouponTool
 Application for WebGears interview.
 
-##Installation instructions
+## Installation instructions
 N.B. 
 Before you will start app installation please make sure that you have php v7.1(or above), Composer and NPM installed on your system.
 
-####Database preparations
+#### Database preparations
 Please create database and user for it in your DB Engine. You will put this info to application config in later steps.
 
-####WebServer preparations
+#### WebServer preparations
 Cause there was a lack of time for the app development, Application created(tested) only with using NGINX webserver, so here is config which was used for it:
 ```text
 server {
@@ -63,7 +63,7 @@ server {
 
 ``` 
 
-####Steps to install app 
+#### Steps to install app 
 1. Clone application from repo.
 2. Open your terminal and cd to project directory.
 3. Open `application/config/dbConfig.php` file for edit and put there all info needed  for successful database connection. 
