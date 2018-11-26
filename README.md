@@ -72,3 +72,10 @@ server {
     5.1. Maybe its will be good to run `npn run prod` to recompile frontend scripts, but by default they are already compiled "in production mode". 
 6. Run `composer db:migrate` which will run all needed database migrations.
 7. Probably you are ready to go!
+
+# NOTES
+
+Application written from scratch. It's built as some kind of symbiosis of MVC Pattern and Service based architecture with using some symfony and laravel components. 
+All app configurations you can find in `application/config` folder where, for example, few API Repos and exact dataMappers for them can be configured. 
+
+Sorry for not ideal implementation, but If i had more time, there are a lot of things could be improved or improved in more correct way. 
