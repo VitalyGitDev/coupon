@@ -1,0 +1,19 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Application\\": "application",
+      "Api\\": "application/api",
+      "Migrations\\": "migrations"
+    }
+  },
+  "require": {
+    "illuminate/database": "^5.7",
+    "symfony/http-foundation": "^4.1",
+    "symfony/routing": "^4.1"
+  },
+  "scripts": {
+    "db:migrate": [
+      "@php ./migrations/run.php"
+    ]
+  }
+}

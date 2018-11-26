@@ -1,0 +1,9 @@
+//======= CURRENT WORKAROUND=======\\
+
+
+
+
+
+//======= NEED TO DO ========\\
++ Check model data, does it has to be updated or not.
+- Problem with not unique voucher codes from API source.
